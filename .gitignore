@@ -1,0 +1,14 @@
+/images/apps/*
+!/images/apps/.gitkeep
+/images/bg/*
+!/images/bg/.gitkeep
+/images/pics/*
+!/images/pics/.gitkeep
+
+
+
+/ssl/*
+!/ssl/.gitkeep
+
+/config.json
+/server.json

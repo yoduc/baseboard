@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: contents;
+}
+
+html {
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.config_text11 {
+    width: 100%;
+    resize: none;
+}
+.modal-body {
+    position: relative;
+    height: calc(100vh - 200px);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    padding: 7px 0 2px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-weight: 100;
+}
+.footer .edit-invisible {
+    display: none;
+    visibility: hidden;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin: 4px 5px 4px 4px;
+}
+
+.icon-target {
+    width: 8px;
+    height: 8px;
+    opacity: 0.5;
+}
+.icon-check-error {
+    width: 8px;
+    height: 6px;
+    padding-left: 2px;
+    margin-top: 17px;
+}
+
+.search {
+    padding: 30px 0 30px 0;
+    width: 800px;
+    opacity: 0.9;
+}
+
+.main {
+    padding-left: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+.panel {
+    padding: 5px 15px;
+    margin: 0 20px 50px 0;
+    list-style-type: none;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.panel-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.item-btn {
+    margin: 8px 0;
+    padding: 2px !important;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.6); 
+}
+
+.item-img {
+    margin: 10px 0;
+}
+
+.btn .title {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.btn .description {
+    font-size: 0.75rem;
+    margin-top: -4px;
+}
+
+
+
+.hr {
+    height: 2px !important;
+}
+
+
+.button-red {
+    background-color: rgba(255, 100, 100, 0.5);
+}
+.button-red:hover {
+    background-color: rgba(70, 50, 50, 1);
+}
+.button-green {
+    background-color: rgba(100, 255, 100, 0.5);
+}
+.button-green:hover {
+    background-color: rgba(50, 70, 50, 1);
+}
+.button-blue {
+    background-color: rgba(180, 180, 255, 0.5);
+}
+.button-blue:hover {
+    background-color: rgba(50, 50, 70, 1);
+}

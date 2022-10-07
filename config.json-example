@@ -1,0 +1,71 @@
+{
+    "footer": "<a href='https://github.com/yoduc/baseboard'>&copy; <span style='font-weight: 600'>base</span>board</a>",
+    "background": {
+        "images": [
+            "1.jpg",
+            "2.jpg"
+        ],
+        "base_dir": "images/bg/",
+        "image_delay": 60
+    },
+    "search_engines": [
+        {
+            "url": "http://www.google.ca/search?q=",
+            "text": "Google"
+        },
+        {
+            "url": "https://duckduckgo.com/?q=",
+            "text": "DuckDuckGo"
+        },
+        {
+            "url": " https://search.yahoo.com/search?p=",
+            "text": "Yahoo"
+        },
+        {
+            "url": "https://bing.com/search?q=",
+            "text": "Bing"
+        }
+    ],
+    "panels": {
+        "Home": {
+            "style": {
+                "background-color": "rgba(220, 220, 255, 0.6)",
+                "border": "1px solid rgba(0, 0, 0, 0.4)",
+                "min-width": "270px",
+                "max-width": "270px"
+            },
+            "items": [
+                {
+                    "img": "images/apps/github.png",
+                    "href": "https://github.com/yoduc/baseboard",
+                    "title": "GitHub"
+                },
+                {
+                    "type": "hr"
+                },
+                {
+                    "img": "images/apps/github.png",
+                    "href": "https://github.com/yoduc/baseboard",
+                    "title": "GitHub"
+                }
+            ]
+        },
+        "Links": {
+            "style": {
+                "background-color": "rgba(255, 255, 255, 0.6)",
+                "border": "1px solid rgba(0, 0, 0, 0.5)",
+                "width": "80x"
+            },
+            "items": [
+                {
+                    "img": "images/apps/github.png",
+                    "href": "https://github.com"
+                },
+                {
+                    "img": "images/apps/reddit.png",
+                    "href": "https://reddit.com"
+                }
+            ]
+        }
+    }
+}

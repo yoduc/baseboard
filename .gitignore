@@ -8,7 +8,7 @@
 
 
 /ssl/*
-!/ssl/.gitkeep
+!/ssl/.htaccess
 
 /config.json
 /server.json
